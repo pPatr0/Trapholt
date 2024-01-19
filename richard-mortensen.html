@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trapholt</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        * {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div class="bg-[#edebe7] w-full relative">
+        <nav id="navbar" class="flex lg:flex-row flex-col justify-between py-4 px-8 items-center lg:bg-transparent bg-[#edebe7] border-b border-[#272729]">
+            <div class="lg:block flex justify-between lg:w-fit w-full">
+                <a href="index.html">
+                    <img class="h-7" src="img/logoBlack.svg" alt="LogoBlack">
+                </a>
+                <button id="toggleButton" class="lg:hidden text-white">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" class="w-6 h-6 stroke-[#272729]">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                    </svg>                      
+                </button>
+            </div>
+            <div id="navbarContent" class="lg:pt-0 pt-4 lg:block hidden">
+                <ul class="text-[#272729] flex lg:flex-row flex-col lg:divide-x-2 divide-neutral-700 lg:space-y-0 space-y-2 lg:text-left text-center">
+                    <li class="px-8 hover:underline"><a href="index.html">Home</a></li>
+                    <li class="px-8 hover:underline"><a href="about-us.html">About</a></li>
+                    <li class="px-8 hover:underline"><a href="exhibitions.html">Exhibitons</a></li>
+                    <li class="px-8 hover:underline"><a href="cafe.html">Café</a></li>
+                    <li class="px-8 hover:underline"><a href="education.html">Education</a></li>
+                </ul>
+            </div>
+            <div id="navbarButton" class="lg:pt-0 pt-4 lg:pb-0 pb-2 lg:block hidden">
+                <a class="bg-[#272729] text-white px-6 py-2 rounded-lg hover:bg-[#edebe7] hover:text-[#272729] hover:outline hover:outline-black hover:outline-offset-[-3px] transition" href="buy-ticket.html">
+                    Buy Ticket
+                </a>
+            </div>
+        </nav>
+    </div>
+
+    <div class="bg-[#edebe7] py-16 text-[#272729]">
+        <div class="container mx-auto lg:px-0 px-8">
+            <h1 class="uppercase text-4xl font-semibold lg:pl-8 md:pl-16 pl-0">
+                THE RICHARD MORTENSEN ROOM
+            </h1>  
+            <p class="pt-2 pb-8 lg:pl-8 md:pl-16 pl-0">
+                Permanent
+            </p>
+            <div class="flex lg:flex-row flex-col justify-between lg:items-start items-center">
+                <img src="img/permanent/karta500-3.jpg" alt="RichardMortensen" class="border-2 border-[#272729] h-fit w-[24rem] mx-8">
+                <div class="lg:max-w-5xl max-w-xl space-y-4 text-lg lg:pt-0 pt-6 text-justify lg:mx-8 mx-0">
+                    <p>
+                        While the construction of Trapholt was underway, the museum’s director, Sven Jørn Andersen, was in talks with artist Richard Mortensen about acquiring a couple of paintings for the museum.
+                    </p>
+                    <p>
+                        By this time, the abstract artist Richard Mortensen (1910–93) had long been keenly interested in the interplay between painting and architecture. Mortensen proposed that if the architects behind the museum, Boye Lundgaard and Bente Aude, would design a room dedicated to Richard Mortensen’s art, he himself would create a series of paintings especially for the museum.
+                    <p>
+                        The project was duly realised: working in collaboration with the museum architects, Richard Mortensen created a polygonal space in which each work is given its own large, white wall. The Richard Mortensen Room was inaugurated as part of the official opening of Trapholt in 1988.
+                    </p>
+                    <p>
+                        The nine paintings featured in the room cover different periods and series within Richard Mortensen’s overall oeuvre
+                    </p>
+                    <p>
+                        The sequence of the works is inspired by The Tale of the Cow,  an ancient East Asian myth with which Mortensen first became acquainted as a young man. The story would have a major impact on Mortensen’s life and artistic work.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-[#edebe7] text-[#272729] py-16">
+        <div class="container mx-auto lg:px-0 px-8 max-w-6xl">
+            <h1 class="uppercase text-4xl font-semibold pb-8 flex flex-col pl-4 lg:items-start items-center">
+                Upcoming exhibitons
+            </h1>
+            <div class="flex lg:flex-row flex-col justify-between items-center lg:space-y-0 space-y-4">
+                <div class="flex flex-col border-4 border-[#272729] mx-4 max-w-lg">
+                    <img src="img/upcoming/upcoming500-1.jpg" alt="TrapholtCollect" class="h-fit w-[32rem]">
+                    <div class="bg-white max-w-lg px-6 pb-8">
+                        <a href="trapholt-collect.html">
+                            <h2 class="text-2xl font-semibold pt-8 uppercase hover:underline">
+                                Trapholt collect
+                            </h2>
+                        </a>
+                        <p>
+                            18.01.2024 - 08.12.2024
+                        </p>
+                        <p class="mt-8 text-lg">
+                            Trapholt has a sharpened focus on the sensual and experiential potential of painting in the present as a distinctive art form. In Trapholt's collection, the painting collection reflects a wide range of abstract, concrete...
+                        </p>
+                    </div>
+                </div>
+                <div class="flex flex-col border-4 border-[#272729] mx-4 max-w-lg">
+                    <img src="img/upcoming/upcoming500-2.jpg" alt="ShapingPattern" class="h-auto w-[32rem]">
+                    <div class="bg-white max-w-lg px-6 pb-8">
+                        <a href="shaping-pattern.html">
+                            <h2 class="text-2xl font-semibold pt-8 uppercase hover:underline">
+                                Shaping a pattern
+                            </h2>
+                        </a>
+                        <p>
+                            18.01.2024 - 24.11.2024
+                        </p>
+                        <p class="mt-8 text-lg">
+                            In January 2024, Trapholt presents the solo exhibition Shaping a Pattern, where the Danish artist Maria Torp explores the potential of portraiture as an activist and enlightening format. The exhibition will be a sensual and...
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-[#272729] pt-20 pb-6 lg:px-8 md:px-8 px-0">
+        <div class="container mx-auto">
+            <div class="lg:grid lg:grid-cols-2 gap-2 md:grid-rows-1 lg:px-0 px-8">
+                <div>
+                    <img src="img/Logo.svg" alt="LogoWhite" class="h-16">
+                    <div class="flex space-x-4 items-center pt-4">
+                        <img src="img/indicators/kolding.png" alt="Kolding" class="h-[8rem]">
+                        <img src="img/indicators/michelin.webp" alt="Michelin" class="h-[7rem]">
+                        <img src="img/indicators/tripadvisor.png" alt="Tripadvisor" class="h-[7rem]">
+                    </div>
+                </div>
+                <div class="lg:flex justify-self-end justify-between pb-6 md:grid md:grid-rows-1 md:gap-y-12 lg:space-y-0 space-y-6 lg:space-x-12 space-x-0">
+                    <ul class="text-white space-y-2 font-bold lg:mt-0 md:mt-4">
+                        <li>
+                            <a href="#" class="text-white font-bold">Adress</a>
+                        </li>
+                        <li>
+                            <p class="font-extralight">Trapholt</p>
+                        </li>
+                        <li>
+                            <p class="font-extralight">Æblehaven 23</p>
+                        </li>
+                        <li>
+                            <p class="font-extralight">6000 Kolding</p>
+                        </li>
+                    </ul>
+                    <ul class="text-white space-y-2 font-bold">
+                        <li>
+                            <a href="#" class="text-white font-bold">Opening hours</a>
+                        </li>
+                        <div class="grid grid-cols-2 font-extralight">
+                            <ul class="space-y-2">
+                                <li>Mon</li>
+                                <li>Tue-Sun</li>
+                                <li>Wed</li>
+                            </ul>
+                            <ul class="space-y-2 -ml-12 lg:ml-0 md:ml-0">
+                                <li>Closed</li>
+                                <li>10.00 - 17.00</li>
+                                <li>10.00 - 21.00</li>
+                            </ul>
+                        </div>
+                    </ul>
+                    <ul class="space-y-2">
+                        <a href="#" class="text-white font-bold">Follow us</a>
+                        <div class="flex">
+                            <a href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="stroke-white" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" /><path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" /><path d="M16.5 7.5l0 .01" /></svg>
+                            </a>
+                            <a href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="stroke-white" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" /></svg>
+                            </a>
+                            <a href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="stroke-white" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M2 8a4 4 0 0 1 4 -4h12a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-12a4 4 0 0 1 -4 -4v-8z" /><path d="M10 9l5 3l-5 3z" /></svg>
+                            </a>
+                            <a href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="stroke-white" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" /><path d="M8 11l0 5" /><path d="M8 8l0 .01" /><path d="M12 16l0 -5" /><path d="M16 16v-3a2 2 0 0 0 -4 0" /></svg>
+                            </a>
+                            <a href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="stroke-white" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M6.5 13.5m-1.5 0a1.5 1.5 0 1 0 3 0a1.5 1.5 0 1 0 -3 0" /><path d="M17.5 13.5m-1.5 0a1.5 1.5 0 1 0 3 0a1.5 1.5 0 1 0 -3 0" /><path d="M17.5 9a4.5 4.5 0 1 0 3.5 1.671l1 -1.671h-4.5z" /><path d="M6.5 9a4.5 4.5 0 1 1 -3.5 1.671l-1 -1.671h4.5z" /><path d="M10.5 15.5l1.5 2l1.5 -2" /><path d="M9 6.75c2 -.667 4 -.667 6 0" /></svg>
+                            </a>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+            <hr class="border-white pb-4 mt-8"/>
+            <span class="block text-sm text-white opacity-50 mt-2 text-center">
+                © 2023 Trapholt
+            </span>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var navbar = document.getElementById("navbar");
+            var toggleButton = document.getElementById("toggleButton");
+            var navbarContent = document.getElementById("navbarContent");
+            var navbarButton = document.getElementById("navbarButton");
+
+            toggleButton.addEventListener("click", toggleNavbar);
+
+            function toggleNavbar() {
+                navbarContent.classList.toggle("!block");
+                navbarButton.classList.toggle("!block");
+            }
+        });
+    </script>
+</body>
+</html>
