@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="img/favicon.png">
     <style>
         * {
             font-family: 'Inter', sans-serif;
@@ -20,7 +21,7 @@
         <nav id="navbar" class="flex lg:flex-row flex-col justify-between py-4 px-8 items-center lg:bg-transparent bg-[#edebe7] border-b border-[#272729]">
             <div class="lg:block flex justify-between lg:w-fit w-full">
                 <a href="index.html">
-                    <img class="h-7" src="img/logoBlack.svg" alt="LogoBlack">
+                    <img class="h-7 hover transition duration-300 ease-in-out hover:scale-110" src="img/logoBlack.svg" alt="LogoBlack">
                 </a>
                 <button id="toggleButton" class="lg:hidden text-white">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" class="w-6 h-6 stroke-[#272729]">
@@ -126,8 +127,8 @@
                         <img src="img/indicators/tripadvisor.png" alt="Tripadvisor" class="h-[7rem]">
                     </div>
                 </div>
-                <div class="lg:flex justify-self-end justify-between pb-6 md:grid md:grid-rows-1 md:gap-y-12 lg:space-y-0 space-y-6 lg:space-x-12 space-x-0">
-                    <ul class="text-white space-y-2 font-bold lg:mt-0 md:mt-4">
+                <div class="lg:flex justify-self-end justify-between pb-6 md:grid md:grid-rows-1 md:gap-y-12 lg:space-y-0 space-y-6 w-[38rem]">
+                    <ul class="text-white space-y-2 font-bold lg:mt-0 md:mt-4 w-1/2">
                         <li>
                             <a href="#" class="text-white font-bold">Adress</a>
                         </li>
@@ -140,6 +141,12 @@
                         <li>
                             <p class="font-extralight">6000 Kolding</p>
                         </li>
+                        <li class="pt-3">
+                            <a href="#" class="text-white font-bold">Telefon</a>
+                        </li>
+                        <li>
+                            <p class="font-extralight">+45 76 30 05 30</p>
+                        </li>
                     </ul>
                     <ul class="text-white space-y-2 font-bold">
                         <li>
@@ -150,8 +157,14 @@
                                 <li>Mon</li>
                                 <li>Tue-Sun</li>
                                 <li>Wed</li>
+                                <li class="pt-3">
+                                    <a href="#" class="text-white font-bold">Email</a>
+                                </li>
+                                <li>
+                                    <p class="font-extralight">kunstmuseum@trapholt.dk</p>
+                                </li>
                             </ul>
-                            <ul class="space-y-2 -ml-12 lg:ml-0 md:ml-0">
+                            <ul class="space-y-2 lg:ml-0 md:ml-0">
                                 <li>Closed</li>
                                 <li>10.00 - 17.00</li>
                                 <li>10.00 - 21.00</li>
@@ -180,7 +193,7 @@
                     </ul>
                 </div>
             </div>
-            <hr class="border-white pb-4 mt-8"/>
+            <hr class="border-white pb-4 mt-6"/>
             <span class="block text-sm text-white opacity-50 mt-2 text-center">
                 © 2023 Trapholt
             </span>
